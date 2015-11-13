@@ -1,0 +1,14 @@
+* html { font-size: 112.5%; }
+html { font-size: 18px; line-height: 1.33333em; height: 100%; width:100%; overflow-y: scroll; }
+body {height:100%; width:100%;}
+
+a, a:visited{  }
+a:hover{  }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:$futuraBold;
+}
+
+p, ul {
+	font-family:$courierNew;
+}

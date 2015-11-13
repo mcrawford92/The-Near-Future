@@ -1,0 +1,13 @@
+.sidebar_city {
+	padding:60px 30px; padding-left:300px;
+	header, article, footer {
+		opacity:0; }
+	header {
+		h2 {
+			color:$white; margin:0; padding:0; font-size:48px;
+			span {
+				color:$gray; font-size:34px; text-transform:uppercase; padding-left:10px; letter-spacing:.02em;
+			}
+		}
+	}
+}
