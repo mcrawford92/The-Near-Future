@@ -157,6 +157,10 @@
 					this.animateCityIntro();
 				}
 
+				else if (t.id == "back_arrow") {
+					this.animateCityOutro();
+				}
+
 			}
 			return false;
 		};

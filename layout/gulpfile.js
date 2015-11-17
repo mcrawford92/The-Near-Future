@@ -8,6 +8,7 @@ var gulp        = require('gulp'),
     uglify      = require('gulp-uglify'),
     plumber     = require('gulp-plumber'),
     browserify  = require('browserify'),
+    sourcemaps = require('gulp-sourcemaps'),
     source      = require('vinyl-source-stream');
 
 var paths = {
@@ -37,7 +38,9 @@ gulp.task('sass', function () {
 //Concactenate Javascript and minify it
 gulp.task('js', function() {  
   return gulp.src(['js/lib/pages/*.js', 'js/lib/modules/*.js', 'js/lib/utilities/*.js'])
-    .pipe(concat('lib.js'))
+    .pipe(sourcemaps.init())
+        .pipe(concat('lib.js'))
+    .pipe(sourcemaps.write())
     .pipe(uglify())
     .pipe(gulp.dest('js'))
 });

@@ -1,4 +1,4 @@
-<?php include('includes/header.php'); ?>
+<?php include('includes/header.php'); ?><!--
 	<article class="splash_header">
 		<figure>
 			<img src="images/splash_logo_01.png" alt="The Near:Future" />
@@ -10,8 +10,8 @@
 			<p>
 				A tool for alumni of random places. I don't care. Words.
 			</p>
-		</figcaption>-->
-	</article>
+		</figcaption>
+	</article>-->
 	<article class="page_map">
 		<section class="map_container">
 			<figure id="map">
